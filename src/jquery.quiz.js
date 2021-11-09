@@ -28,8 +28,6 @@ $.quiz = function(el, options) {
     answerLocked = false,
     userMessage = 'Well Done!';
 
-    console.log(numQuestions);
-
   base.methods = {
     init: function() {
       base.methods.setup();
